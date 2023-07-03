@@ -1,7 +1,8 @@
 # What
-This allows people to create a csv in their favorite editor, drag it into the app, and submit each column separately
-to an API endpoint. It offers fields that can be grabbed via a GET request to an API endpoint for normalizing data which
-is particularly useful for columns where joins or unions take place and typos cannot happen.
+This allows people to create a csv in their favorite editor, drag it into the app, and submit each row separately
+to an API endpoint. It would be trivial to modify to send all relevant columns in a single request. It offers 
+fields that can be grabbed via a GET request to an API endpoint for normalizing data which is particularly useful 
+for columns where joins or unions take place and typos cannot happen. 
 
 Also included is validator to ensure proper standardization and sanitization. Albiet it is still in elementary form here.
 
